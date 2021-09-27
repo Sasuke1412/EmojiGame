@@ -1,0 +1,74 @@
+.signup-bg-container{
+    background-image: url('https://res.cloudinary.com/ddw5fowln/image/upload/v1632321828/2603257_gh4qqd.jpg');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 72, 72);
+    background-blend-mode: multiply;
+}
+.sign-up-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    margin-left: 80px;
+    background-color: white;
+    border: 2px solid black;
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+.email-group,.password-group,.fName-group,.lName-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+}
+.form-design-interior{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+}
+.label-design{
+    margin: 5px;
+    font-weight: bold;
+}
+.input-design{
+    border-bottom: 5px solid green;
+    border-radius: 5px;
+}
+.submit-login-button{
+    padding: 5px;
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    width: 80px;
+    margin-top:10px
+}
+.sign-up-heading{
+    color: white;
+}
+.anchor-design{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 7px;
+    border-radius: 10px;
+    display: block;
+}
+.l-name,.f-name,.password{
+    padding-right: 32px;
+}
+.e-mail {
+    padding-right: 15px ;
+
+}

@@ -1,0 +1,119 @@
+.bg-container-converter{
+    background-color: black;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white!important;
+    
+}
+.envolpe{
+    background-color: black;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+}
+.group-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 600px;
+    height: 200px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+.source-group,.target-group{
+    display: flex;
+    flex-direction: row;
+    margin: 35px;
+}
+.source-group-bg-container{
+    background-color: rgb(102, 212, 102);
+}
+.source-selection-options,.target-selection-options{
+    background-color: rgba(0, 0, 0, 0.925);
+    /*color: rgb(219, 72, 72);*/
+    color: white;
+    width:100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 12px 12px 2px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    outline: none;
+    font-size: 42px;
+    font-weight: bold;
+    margin: 10px;
+    box-shadow:-20px -20px 60px #000000, 20px 20px 60px #0c0c0c;
+    
+    transition: all 500ms ease-in-out;
+
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+.Select-options-design{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.divider-btwn-currencies{
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 44px;
+}
+.design-icon{
+    background-color:rgb(219, 72, 72);
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 50px;
+    
+}
+.card-container{
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+.input-box{
+    width: 180px;
+    height: 40px;
+    background-color: white !important;
+    outline: none;
+    border-radius: 5px;
+   
+    font-size: 30px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.source-indicator{
+    color: rgb(219, 72, 72);
+}
+.main-heading{
+    font-size: 45px;
+}
+
+@media only screen and (max-width: 992px) {
+    .bg-container-converter{
+        background-color: black;
+        height: 100vh;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white!important;
+        margin-left: 68px;
+        
+    }
+}

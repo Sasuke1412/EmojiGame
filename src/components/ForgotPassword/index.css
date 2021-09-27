@@ -1,0 +1,59 @@
+.input-design-forgot-password{
+    border: none;
+    border-bottom: 3px solid green;
+}
+.input-design-forgot-password :focus{
+    outline: none;
+}
+.label-design{
+    margin: 5px;
+    font-weight: bold;
+}
+.forgot-password-button-design{
+    margin-top: 25px;
+    background-color: black;
+    color:white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.verification-sent-text-design{
+    color:black;
+    font-weight: bold
+}
+.redirectToLogin{
+    margin-top: 25px;
+    background-color: black;
+    color:white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.submit-verification{
+    margin-top: 25px;
+    background-color: black;
+    color:white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    
+    
+
+}
+.width-adjust-for-verfication{
+    width: 320px;
+}
+.align-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+   
+}
+.verification-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}

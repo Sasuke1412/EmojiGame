@@ -1,0 +1,137 @@
+.bg-container{
+    background-image: url('https://res.cloudinary.com/ddw5fowln/image/upload/v1632321828/2603257_gh4qqd.jpg');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: rgb(219, 72, 72);
+    background-blend-mode: multiply;
+}
+.login-form-big-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.login-side-image{
+    width: 35%;
+    height: 100%;
+    opacity: 0.9;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.form-decor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border: 2px solid white;
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity: 0.95;
+}
+.form-design-interior{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+}
+.Email-group,.Password-group{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+.label-design{
+    margin: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+.input-design{
+    border-bottom: 5px solid rgb(219, 72, 72);
+    border-radius: 5px;
+}
+.password-group-incline{
+    margin-left: 26px;
+}
+.remember-check-button-design:checked{
+    background-color: rgb(219, 72, 72);
+}
+.submit-login-button{
+    padding: 5px;
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    width: 80px;
+    margin-top:10px
+}
+.forgot-password-design{
+    text-decoration: none;
+    color:black
+}
+.header-image{
+    width: 65%;
+}
+.error-msg-design{
+    text-align:center;
+    font-size: 10px;
+    color: red;
+    margin-left: 90px;
+}
+@media only screen and (max-width: 992px) {
+   
+    .bg-container{
+        background-image: url('https://images.pexels.com/photos/4386158/pexels-photo-4386158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+        height: 100vh;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-sizing: border-box;
+        background-color: rgb(219, 72, 72);
+        background-blend-mode: multiply;
+    }
+    
+    .login-side-image{
+        display: none;
+    }
+    .form-decor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+        border: 2px solid white;
+        background-color: white;
+        width: 300px;
+        height: 600px;
+        border-radius: 10px;
+       
+        opacity: 0.85;
+    }
+  }
+  .button-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .register-login-button{
+      margin-left: 15px;
+      padding: 15px;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }

@@ -1,0 +1,47 @@
+
+.side-nav{
+    background-color: rgb(219, 72, 72);;
+    color: white;
+    height: 200px;
+    width: 10px;
+    overflow: hidden;
+    position: fixed;
+    top: 10px;
+    left: 0px;
+  }
+  
+  .side-nav:hover{
+    width: 200px;
+    color: #fff;
+    transition: all 0.3s ease-out
+    
+  }
+  
+  .nav-list{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .nav-item{
+    padding: 10px;
+  }
+  
+  .nav-item:hover{
+    background: rgba(255,255,255,0.2);
+    cursor: pointer;
+  }
+.delete-button-design{
+  background-color: rgb(247, 57, 57);
+  color: white;
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  border: transparent;
+}
+
+.profile-avatar{
+    width: 25%;
+    border-radius: 25px;
+}
